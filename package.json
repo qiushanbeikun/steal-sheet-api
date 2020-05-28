@@ -1,0 +1,25 @@
+{
+  "name": "steal-sheet-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "easy-pdf-merge": "^0.2.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "svg-to-pdfkit": "^0.1.8"
+  },
+  "devDependencies": {
+    "parse5": "^6.0.0",
+    "pdf-merge": "^1.2.0",
+    "pdfkit": "^0.11.0",
+    "request": "^2.88.2"
+  }
+}
