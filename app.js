@@ -64,6 +64,7 @@ const steelAPIRouter2 = async (req, res) => {
       }
     }
 
+
     // get the number of page count
     let tbody = parsed.childNodes[1].childNodes[2].childNodes;
     for (let each of tbody) {
