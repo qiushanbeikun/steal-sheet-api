@@ -119,10 +119,7 @@ const steelAPIRouter2 = async (req, res) => {
         }
         console.log('done');
       });
-
-
-
-    }, 5000);
+    }, 10000);
 
 
     const file ='merged.pdf';
